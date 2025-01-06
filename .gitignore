@@ -1,0 +1,10 @@
+.env
+.encryptedKey.json
+node_modules
+dist
+.prettierrc
+hardhat.config.js
+package.json
+cache/
+artifacts/
+yarn.lock
