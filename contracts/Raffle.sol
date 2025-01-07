@@ -2,8 +2,6 @@
 
 pragma solidity ^0.8.7;
 
-// In the video, we use the following import statement, but newer versions of the Chainlink
-// contracts have a different file structure.
 import "@chainlink/contracts/src/v0.8/automation/interfaces/AutomationCompatibleInterface.sol";
 import "@chainlink/contracts/src/v0.8/vrf/interfaces/VRFCoordinatorV2Interface.sol";
 import "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol";
@@ -17,7 +15,7 @@ error Raffle__RaffleNotOpen();
 
 /**
  * @title A sample Raffle Contract
- * @author Patrick Collins
+ * @author Enrique Folte
  * @notice This contract is for creating a sample raffle contract
  * @dev This implements the Chainlink VRF Version 2
  */

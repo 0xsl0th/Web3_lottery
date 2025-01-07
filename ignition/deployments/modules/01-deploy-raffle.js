@@ -1,7 +1,7 @@
 require("dotenv").config()
 
 const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules")
-const { networkConfig } = require("./helper-hardhat-config")
+const { networkConfig } = require("../../../helper-hardhat-config")
 const { network } = require("hardhat")
 const chainId = network.config.chainId
 const { ethers } = require("hardhat")

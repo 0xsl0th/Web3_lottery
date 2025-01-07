@@ -1,8 +1,9 @@
 const { ethers } = require("hardhat")
 
-networkConfig = {
+const networkConfig = {
     31337: {
         name: "localhost",
+        vrfCoordinatorV2: "",
         subscriptionId: "666",
         gasLane: "0x1234..",
         entranceFee: ethers.parseEther("0.01"),
